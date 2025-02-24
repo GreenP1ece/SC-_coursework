@@ -30,6 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridViewProjects = new System.Windows.Forms.DataGridView();
+            this.ProjectId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Deadline = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ClientId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ContractorId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ManagerId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.projectsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.managerBuildAppDataSet2 = new ManagerBuildApp.ManagerBuildAppDataSet2();
             this.btnAdd = new System.Windows.Forms.Button();
@@ -44,11 +51,12 @@
             this.labelContractor = new System.Windows.Forms.Label();
             this.labelClient = new System.Windows.Forms.Label();
             this.cmbClient = new System.Windows.Forms.ComboBox();
-            this.cmbContractor = new System.Windows.Forms.ComboBox();
-            this.managerBuildAppDataSet = new ManagerBuildApp.ManagerBuildAppDataSet();
+            this.clientsBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.managerBuildAppDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.managerBuildAppDataSet1 = new ManagerBuildApp.ManagerBuildAppDataSet1();
+            this.managerBuildAppDataSet = new ManagerBuildApp.ManagerBuildAppDataSet();
+            this.cmbContractor = new System.Windows.Forms.ComboBox();
             this.contractorsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.managerBuildAppDataSet1 = new ManagerBuildApp.ManagerBuildAppDataSet1();
             this.contractorsTableAdapter = new ManagerBuildApp.ManagerBuildAppDataSet1TableAdapters.ContractorsTableAdapter();
             this.managerBuildAppDataSet3 = new ManagerBuildApp.ManagerBuildAppDataSet3();
             this.clientsBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -56,27 +64,19 @@
             this.managerBuildAppDataSet4 = new ManagerBuildApp.ManagerBuildAppDataSet4();
             this.contractorsBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.contractorsTableAdapter1 = new ManagerBuildApp.ManagerBuildAppDataSet4TableAdapters.ContractorsTableAdapter();
-            this.clientsBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.clientsTableAdapter1 = new ManagerBuildApp.ManagerBuildAppDataSetTableAdapters.ClientsTableAdapter();
-            this.projectIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.deadlineDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clientIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.contractorIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.managerIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProjects)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.projectsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSet2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.contractorsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSet3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSet4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.contractorsBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridViewProjects
@@ -84,18 +84,62 @@
             this.dataGridViewProjects.AutoGenerateColumns = false;
             this.dataGridViewProjects.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewProjects.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.projectIdDataGridViewTextBoxColumn,
-            this.nameDataGridViewTextBoxColumn,
-            this.statusDataGridViewTextBoxColumn,
-            this.deadlineDataGridViewTextBoxColumn,
-            this.clientIdDataGridViewTextBoxColumn,
-            this.contractorIdDataGridViewTextBoxColumn,
-            this.managerIdDataGridViewTextBoxColumn});
+            this.ProjectId,
+            this.Name,
+            this.Status,
+            this.Deadline,
+            this.ClientId,
+            this.ContractorId,
+            this.ManagerId});
             this.dataGridViewProjects.DataSource = this.projectsBindingSource;
             this.dataGridViewProjects.Location = new System.Drawing.Point(46, 24);
             this.dataGridViewProjects.Name = "dataGridViewProjects";
             this.dataGridViewProjects.Size = new System.Drawing.Size(1034, 299);
             this.dataGridViewProjects.TabIndex = 0;
+            this.dataGridViewProjects.SelectionChanged += new System.EventHandler(this.dataGridViewProjects_SelectionChanged);
+            // 
+            // ProjectId
+            // 
+            this.ProjectId.DataPropertyName = "ProjectId";
+            this.ProjectId.HeaderText = "ProjectId";
+            this.ProjectId.Name = "ProjectId";
+            this.ProjectId.ReadOnly = true;
+            // 
+            // Name
+            // 
+            this.Name.DataPropertyName = "Name";
+            this.Name.HeaderText = "Name";
+            this.Name.Name = "Name";
+            // 
+            // Status
+            // 
+            this.Status.DataPropertyName = "Status";
+            this.Status.HeaderText = "Status";
+            this.Status.Name = "Status";
+            // 
+            // Deadline
+            // 
+            this.Deadline.DataPropertyName = "Deadline";
+            this.Deadline.HeaderText = "Deadline";
+            this.Deadline.Name = "Deadline";
+            // 
+            // ClientId
+            // 
+            this.ClientId.DataPropertyName = "ClientId";
+            this.ClientId.HeaderText = "ClientId";
+            this.ClientId.Name = "ClientId";
+            // 
+            // ContractorId
+            // 
+            this.ContractorId.DataPropertyName = "ContractorId";
+            this.ContractorId.HeaderText = "ContractorId";
+            this.ContractorId.Name = "ContractorId";
+            // 
+            // ManagerId
+            // 
+            this.ManagerId.DataPropertyName = "ManagerId";
+            this.ManagerId.HeaderText = "ManagerId";
+            this.ManagerId.Name = "ManagerId";
             // 
             // projectsBindingSource
             // 
@@ -211,6 +255,21 @@
             this.cmbClient.TabIndex = 13;
             this.cmbClient.ValueMember = "ClientId";
             // 
+            // clientsBindingSource1
+            // 
+            this.clientsBindingSource1.DataMember = "Clients";
+            this.clientsBindingSource1.DataSource = this.managerBuildAppDataSetBindingSource;
+            // 
+            // managerBuildAppDataSetBindingSource
+            // 
+            this.managerBuildAppDataSetBindingSource.DataSource = this.managerBuildAppDataSet;
+            this.managerBuildAppDataSetBindingSource.Position = 0;
+            // 
+            // managerBuildAppDataSet
+            // 
+            this.managerBuildAppDataSet.DataSetName = "ManagerBuildAppDataSet";
+            this.managerBuildAppDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // cmbContractor
             // 
             this.cmbContractor.DataSource = this.contractorsBindingSource;
@@ -222,25 +281,15 @@
             this.cmbContractor.TabIndex = 14;
             this.cmbContractor.ValueMember = "ContractorId";
             // 
-            // managerBuildAppDataSet
+            // contractorsBindingSource
             // 
-            this.managerBuildAppDataSet.DataSetName = "ManagerBuildAppDataSet";
-            this.managerBuildAppDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // managerBuildAppDataSetBindingSource
-            // 
-            this.managerBuildAppDataSetBindingSource.DataSource = this.managerBuildAppDataSet;
-            this.managerBuildAppDataSetBindingSource.Position = 0;
+            this.contractorsBindingSource.DataMember = "Contractors";
+            this.contractorsBindingSource.DataSource = this.managerBuildAppDataSet1;
             // 
             // managerBuildAppDataSet1
             // 
             this.managerBuildAppDataSet1.DataSetName = "ManagerBuildAppDataSet1";
             this.managerBuildAppDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // contractorsBindingSource
-            // 
-            this.contractorsBindingSource.DataMember = "Contractors";
-            this.contractorsBindingSource.DataSource = this.managerBuildAppDataSet1;
             // 
             // contractorsTableAdapter
             // 
@@ -274,57 +323,9 @@
             // 
             this.contractorsTableAdapter1.ClearBeforeFill = true;
             // 
-            // clientsBindingSource1
-            // 
-            this.clientsBindingSource1.DataMember = "Clients";
-            this.clientsBindingSource1.DataSource = this.managerBuildAppDataSetBindingSource;
-            // 
             // clientsTableAdapter1
             // 
             this.clientsTableAdapter1.ClearBeforeFill = true;
-            // 
-            // projectIdDataGridViewTextBoxColumn
-            // 
-            this.projectIdDataGridViewTextBoxColumn.DataPropertyName = "ProjectId";
-            this.projectIdDataGridViewTextBoxColumn.HeaderText = "ProjectId";
-            this.projectIdDataGridViewTextBoxColumn.Name = "ProjectId";
-            this.projectIdDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
-            this.nameDataGridViewTextBoxColumn.Name = "Name";
-            // 
-            // statusDataGridViewTextBoxColumn
-            // 
-            this.statusDataGridViewTextBoxColumn.DataPropertyName = "Status";
-            this.statusDataGridViewTextBoxColumn.HeaderText = "Status";
-            this.statusDataGridViewTextBoxColumn.Name = "Status";
-            // 
-            // deadlineDataGridViewTextBoxColumn
-            // 
-            this.deadlineDataGridViewTextBoxColumn.DataPropertyName = "Deadline";
-            this.deadlineDataGridViewTextBoxColumn.HeaderText = "Deadline";
-            this.deadlineDataGridViewTextBoxColumn.Name = "Deadline";
-            // 
-            // clientIdDataGridViewTextBoxColumn
-            // 
-            this.clientIdDataGridViewTextBoxColumn.DataPropertyName = "ClientId";
-            this.clientIdDataGridViewTextBoxColumn.HeaderText = "ClientId";
-            this.clientIdDataGridViewTextBoxColumn.Name = "ClientId";
-            // 
-            // contractorIdDataGridViewTextBoxColumn
-            // 
-            this.contractorIdDataGridViewTextBoxColumn.DataPropertyName = "ContractorId";
-            this.contractorIdDataGridViewTextBoxColumn.HeaderText = "ContractorId";
-            this.contractorIdDataGridViewTextBoxColumn.Name = "ContractorId";
-            // 
-            // managerIdDataGridViewTextBoxColumn
-            // 
-            this.managerIdDataGridViewTextBoxColumn.DataPropertyName = "ManagerId";
-            this.managerIdDataGridViewTextBoxColumn.HeaderText = "ManagerId";
-            this.managerIdDataGridViewTextBoxColumn.Name = "ManagerId";
             // 
             // ProjectForm
             // 
@@ -344,21 +345,21 @@
             this.Controls.Add(this.txtProjectName);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.dataGridViewProjects);
-            this.Name = "ProjectForm";
+
             this.Text = "Проекты";
             this.Load += new System.EventHandler(this.ProjectForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProjects)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.projectsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSet2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.contractorsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSet3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.managerBuildAppDataSet4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.contractorsBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -402,5 +403,12 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn clientIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn contractorIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn managerIdDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ProjectId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Status;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Deadline;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ClientId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ContractorId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ManagerId;
     }
 }

@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|c:\\users\\kirya\\desktop\\managerbuildapp\\managerbuildapp\\reportsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|solutionrelative:managerbuildapp\\reportsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|c:\\users\\kirya\\desktop\\managerbuildapp\\managerbuildapp\\clientsandcontractorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|solutionrelative:managerbuildapp\\clientsandcontractorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|c:\\users\\kirya\\desktop\\managerbuildapp\\managerbuildapp\\reportsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|solutionrelative:managerbuildapp\\reportsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\managerbuildapp\\clientsandcontractorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|solutionrelative:managerbuildapp\\clientsandcontractorsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\managerbuildapp\\clientorcontractorsexist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|solutionrelative:managerbuildapp\\clientorcontractorsexist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\managerbuildapp\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|solutionrelative:managerbuildapp\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\managerbuildapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|solutionrelative:managerbuildapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\managerbuildapp\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|solutionrelative:managerbuildapp\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\managerbuildapp\\projectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|solutionrelative:managerbuildapp\\projectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\managerbuildapp\\projectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B509976C-2BEF-4389-8AF8-836E0709A79A}|ManagerBuildApp\\ManagerBuildApp.csproj|solutionrelative:managerbuildapp\\projectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +47,101 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReportsForm.cs",
-              "DocumentMoniker": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\ReportsForm.cs",
-              "RelativeDocumentMoniker": "ManagerBuildApp\\ReportsForm.cs",
-              "ToolTip": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\ReportsForm.cs",
-              "RelativeToolTip": "ManagerBuildApp\\ReportsForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
+              "Title": "ClientsAndContractorsForm.cs",
+              "DocumentMoniker": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\ClientsAndContractorsForm.cs",
+              "RelativeDocumentMoniker": "ManagerBuildApp\\ClientsAndContractorsForm.cs",
+              "ToolTip": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\ClientsAndContractorsForm.cs",
+              "RelativeToolTip": "ManagerBuildApp\\ClientsAndContractorsForm.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAuwN4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T18:33:59.724Z",
+              "WhenOpened": "2025-02-24T19:10:41.839Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "ManagerBuildApp\\MainForm.cs",
+              "ToolTip": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\MainForm.cs",
+              "RelativeToolTip": "ManagerBuildApp\\MainForm.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T20:16:26.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\LoginForm.cs",
+              "RelativeDocumentMoniker": "ManagerBuildApp\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\LoginForm.cs",
+              "RelativeToolTip": "ManagerBuildApp\\LoginForm.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAYwHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T20:15:08.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientOrContractorsExist.cs",
+              "DocumentMoniker": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\ClientOrContractorsExist.cs",
+              "RelativeDocumentMoniker": "ManagerBuildApp\\ClientOrContractorsExist.cs",
+              "ToolTip": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\ClientOrContractorsExist.cs",
+              "RelativeToolTip": "ManagerBuildApp\\ClientOrContractorsExist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:20:11.675Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReportsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\ReportsForm.cs",
-              "RelativeDocumentMoniker": "ManagerBuildApp\\ReportsForm.cs",
-              "ToolTip": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\ReportsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "ManagerBuildApp\\ReportsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "ClientsAndContractorsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\ClientsAndContractorsForm.cs",
+              "RelativeDocumentMoniker": "ManagerBuildApp\\ClientsAndContractorsForm.cs",
+              "ToolTip": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\ClientsAndContractorsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "ManagerBuildApp\\ClientsAndContractorsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T18:33:57.757Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-02-24T19:10:38.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InputValidator.cs",
+              "DocumentMoniker": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\InputValidator.cs",
+              "RelativeDocumentMoniker": "ManagerBuildApp\\InputValidator.cs",
+              "ToolTip": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\InputValidator.cs",
+              "RelativeToolTip": "ManagerBuildApp\\InputValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:16:56.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProjectForm.cs",
+              "DocumentMoniker": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\ProjectForm.cs",
+              "RelativeDocumentMoniker": "ManagerBuildApp\\ProjectForm.cs",
+              "ToolTip": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\ProjectForm.cs",
+              "RelativeToolTip": "ManagerBuildApp\\ProjectForm.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAIAwwHkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:05:13.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProjectForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\ProjectForm.cs",
+              "RelativeDocumentMoniker": "ManagerBuildApp\\ProjectForm.cs",
+              "ToolTip": "C:\\Users\\kirya\\Desktop\\ManagerBuildApp\\ManagerBuildApp\\ProjectForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "ManagerBuildApp\\ProjectForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:05:10.779Z"
             }
           ]
         }

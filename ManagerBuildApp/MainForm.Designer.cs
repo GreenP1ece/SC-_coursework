@@ -36,7 +36,7 @@
             // 
             // btnProjects
             // 
-            this.btnProjects.Location = new System.Drawing.Point(12, 12);
+            this.btnProjects.Location = new System.Drawing.Point(25, 12);
             this.btnProjects.Name = "btnProjects";
             this.btnProjects.Size = new System.Drawing.Size(75, 23);
             this.btnProjects.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // btnClientsContractors
             // 
-            this.btnClientsContractors.Location = new System.Drawing.Point(104, 12);
+            this.btnClientsContractors.Location = new System.Drawing.Point(117, 12);
             this.btnClientsContractors.Name = "btnClientsContractors";
             this.btnClientsContractors.Size = new System.Drawing.Size(145, 23);
             this.btnClientsContractors.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // btnReports
             // 
-            this.btnReports.Location = new System.Drawing.Point(273, 12);
+            this.btnReports.Location = new System.Drawing.Point(286, 12);
             this.btnReports.Name = "btnReports";
             this.btnReports.Size = new System.Drawing.Size(75, 23);
             this.btnReports.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(13, 415);
+            this.btnExit.Location = new System.Drawing.Point(25, 237);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 3;
@@ -78,13 +78,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(399, 272);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnReports);
             this.Controls.Add(this.btnClientsContractors);
             this.Controls.Add(this.btnProjects);
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.Text = "Меню";
             this.ResumeLayout(false);
 
         }

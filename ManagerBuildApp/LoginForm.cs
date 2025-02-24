@@ -20,7 +20,6 @@ namespace ManagerBuildApp
             string username = txtUsername.Text.Trim();
             string password = txtPassword.Text.Trim();
 
-            // Пример параметризованного запроса для проверки
             string checkQuery = "SELECT COUNT(*) FROM [Users] WHERE [Username] = @Username AND [Password] = @Password";
 
             try
@@ -47,7 +46,7 @@ namespace ManagerBuildApp
                 }
                 else
                 {
-                    // Авторизация не удалась
+
                     MessageBox.Show("Неверный логин или пароль!", "Ошибка",
                                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
@@ -60,25 +59,22 @@ namespace ManagerBuildApp
         }
 
         /// <summary>
-        /// Выполняет параметризованный запрос с логином и паролем и возвращает количество строк (int).
-        /// </summary>
         private int ExecuteScalarQuery(string query, string username, string password)
         {
             int result = 0;
-            // Подставь свою строку подключения
+
             string connectionString = ConfigurationManager.ConnectionStrings["ManagerBuildApp"].ConnectionString;
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
-                    // Добавляем параметры
+
                     cmd.Parameters.AddWithValue("@Username", username);
                     cmd.Parameters.AddWithValue("@Password", password);
 
                     conn.Open();
-                    // ExecuteScalar возвращает object, но мы знаем, что в запросе SELECT COUNT(*),
-                    // поэтому результат будет числом
+
                     object obj = cmd.ExecuteScalar();
                     if (obj != null)
                     {
@@ -89,16 +85,14 @@ namespace ManagerBuildApp
             return result;
         }
 
-        /// <summary>
-        /// Получает UserId и Username из таблицы [Users] для указанного логина/пароля.
-        /// </summary>
+
         private (int userId, string currentUser, string userRole) GetUserData(string username, string password)
         {
             int userId = 0;
             string currentUser = string.Empty;
             string userRole = string.Empty;
 
-            // Запрос для получения ID и имени пользователя
+
             string query = @"
                 SELECT [UserId], [Username], [Role]
                 FROM [Users] 

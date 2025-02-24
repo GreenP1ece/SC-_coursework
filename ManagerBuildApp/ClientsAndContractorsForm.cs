@@ -196,7 +196,6 @@ namespace ManagerBuildApp
                     MessageBox.Show(NameErr, "Ошибка ввода", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-                MessageBox.Show($"Проверяем дубликаты для:\nName={name}\nPhone={phone}\nCompany={company}");
 
                 if (ClientOrContractorExist.ClientExists(name, phone, company))
                 {
@@ -205,7 +204,6 @@ namespace ManagerBuildApp
                 }
                 DatabaseHelper.ExecuteNonQuery(query);
                 LoadClients();
-                MessageBox.Show("Selected ClientId: " + id);
             }
 
         }

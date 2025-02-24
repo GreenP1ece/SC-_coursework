@@ -47,8 +47,6 @@ namespace ManagerBuildApp.BLL
                     count = (int)cmd.ExecuteScalar();
                 }
             }
-            MessageBox.Show($"SQL={query}");
-            MessageBox.Show($"count={count}");
             return count > 0;
         }
 

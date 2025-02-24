@@ -166,6 +166,8 @@ namespace ManagerBuildApp
                 txtProjectName.Text = row.Cells["Name"].Value.ToString();
                 txtStatus.Text = row.Cells["Status"].Value.ToString();
                 dateTimePickerDeadline.Value = Convert.ToDateTime(row.Cells["Deadline"].Value);
+                cmbClient.SelectedValue = row.Cells["ClientId"].Value.ToString();
+                cmbContractor.SelectedValue = row.Cells["ContractorId"].Value.ToString();
 
                 // ManagerId, ClientId, ContractorId
                 // Можно либо заполнить ComboBox, либо просто хранить их где-то

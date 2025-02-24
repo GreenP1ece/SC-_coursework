@@ -365,7 +365,7 @@
             this.Controls.Add(this.dataGridViewContractors);
             this.Controls.Add(this.dataGridViewClients);
             this.Name = "ClientsAndContractorsForm";
-            this.Text = "ClientsAndContractorsForm";
+            this.Text = "Клиенты и подрядчики";
             this.Load += new System.EventHandler(this.ClientsAndContractorsForm_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewClients)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource)).EndInit();

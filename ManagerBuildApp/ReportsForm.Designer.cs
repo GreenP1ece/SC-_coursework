@@ -36,9 +36,9 @@
             // 
             this.btnGenerateReport.Location = new System.Drawing.Point(13, 415);
             this.btnGenerateReport.Name = "btnGenerateReport";
-            this.btnGenerateReport.Size = new System.Drawing.Size(75, 23);
+            this.btnGenerateReport.Size = new System.Drawing.Size(125, 23);
             this.btnGenerateReport.TabIndex = 1;
-            this.btnGenerateReport.Text = "button1";
+            this.btnGenerateReport.Text = "Сформировать отчет";
             this.btnGenerateReport.UseVisualStyleBackColor = true;
             this.btnGenerateReport.Click += new System.EventHandler(this.btnGenerateReport_Click);
             // 
